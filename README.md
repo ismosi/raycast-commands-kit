@@ -38,9 +38,9 @@ git clone https://github.com/ismosi/raycast-commands-kit.git
 | 🇬🇧 翻译成英文 | 中→英，一键词源级拆解 | 写注释、写文档、国际化文案——精准选词，从演化脉络理解用法 |
 | 🏢 翻译成职场黑话 | 一键日常→专业协作语言 | 周报、方案、跨部门沟通——提升专业密度，建立共识效率 |
 | 💬 翻译成自然话 | 专业语言→清晰自然语言 | 拆解模糊需求、对齐真实意图、减少理解偏差 |
-| ⌨️ 翻译成命令行 | 自然语言→可执行命令 | "把当前分支推送到远程并创建PR"翻译成 `git push -u origin "$(git branch --show-current)" && gh pr create --fill
-` |
+| ⌨️ 翻译成命令行 | 自然语言→可执行命令 | "把当前分支推送到远程并创建PR"翻译成 `git push -u origin "$(git branch --show-current)" && gh pr create --fill` |
 | 📝 翻译成Git Commit | 代码变更→规范提交信息 | 省去自然语言到Conventional Commit的翻译成本，中英文可选，简洁/详细可调 |
+| 📝 取名酱 | 生成英文网名 | 输入参数，自动根据输入的参数进行设计和生成多个网名以供挑选 |
 
 ## 演示
 📝  翻译成中文
@@ -55,6 +55,9 @@ git clone https://github.com/ismosi/raycast-commands-kit.git
 
 📝 翻译成Git Commit
 > 选中代码diff，自动生成 `feat(auth): add OAuth2 login with refresh token rotation`。
+
+📝 取名酱：生成英文网名
+> 输入参数，自动根据输入的参数进行设计和生成多个网名以供挑选
 
 # 设计原则  
 > 用理性压缩无意义的消耗，为感性保留流动的空间。
